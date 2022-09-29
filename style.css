@@ -31,8 +31,18 @@ body {
   cursor: pointer;
 }
 
-.menu1,
-.menu2,
+.menu1 {
+   width: 15px;
+  height: 2px;
+  background-color: #6070ff;
+}
+
+.menu2 {
+  width: 15px;
+  height: 2px;
+  background-color: #6070ff;
+}
+
 .menu3 {
   width: 15px;
   height: 2px;
@@ -56,13 +66,11 @@ body {
   height: 19.25px;
   transform: translate(-50%, -50%) rotate(-156deg);
   border-radius: 150px 150px 0 0;
-  /* transform: ; */
   top: 100px;
   left: -38px;
 }
 
 .eclipse8 {
-  background-color: #fff;
   width: 15px;
   height: 15px;
   border: 1px solid  #cbcdff;
@@ -183,7 +191,6 @@ body {
 .ellipse12 {
   height: 11px;
   width: 11px;
-  background: #fff;
   border-radius: 100px;
   border: 1px solid #cbcdff;
   position: absolute;
@@ -197,7 +204,6 @@ body {
   height: 15px;
   left: 53px;
   top: 605px;
-  background: #fff;
   border: 1px solid #cbcdff;
   border-radius: 100px;
 }
