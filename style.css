@@ -1,0 +1,246 @@
+body {
+  width: 375px;
+  height: 718px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.navheader {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  text-align: center;
+  color: #6070ff;
+  width: 95%;
+}
+
+.menubar {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.menu1, .menu2, .menu3 {
+  width: 15px;
+  height: 2px;
+  background-color: #6070ff;
+}
+
+.rectangle6 {
+  background-color: #ebebff;
+  position: absolute;
+  width: 51.99px;
+  height: 9.3px;
+  left: -52px;
+  top: 80.49px;
+  transform: rotate(-46deg);
+}
+
+.eclipse11 {
+  background-color: #6070ff;
+  position: absolute;
+  width: 38.5px;
+  height: 19.25px;
+  transform: translate(-50%, -50%) rotate(-156deg);
+  border-radius: 150px 150px 0 0;
+  /* transform: ; */
+  top: 100px;
+  left: -38px;
+}
+
+.eclipse8 {
+  background-color: #FFF;
+  width: 15px;
+  height: 15px;
+  border: 1px solid  #cbcdff;
+  border-radius: 100px;
+  position: absolute;
+  top: 80px;
+  right: 165px;
+  opacity: 0.8;
+}
+
+.rectangle7 {
+  width: 26.46px;
+  height: 4.73px;
+  background: #6070ff;
+  border: none;
+  transform: rotate(220deg);
+  position: absolute;
+  top: 125px;
+  left: 101px;
+}
+
+.ellipse5 {
+  width: 11px;
+  height: 10px;
+  background-color: #cbcdff;
+  transform: rotate(53deg);
+  border-radius: 100px;
+  position: absolute;
+  top: 128px;
+  left: 103px;
+}
+
+.rectangle4 {
+  width: 95.58px;
+  height: 22.02px;
+  background: #ebebff;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 89px;
+  right: -13px;
+}
+
+.eclipse3 {
+  position: absolute;
+  left: 310px;
+  top: 110px;
+}
+
+.mainfont {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: 135px;
+}
+
+.mainpara {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  top: 321px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect {
+  width: 155px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+  position: absolute;
+  top: 492px;
+  letter-spacing: 1.2px;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+  position: relative;
+  top: 508px;
+}
+
+.images:hover {
+  cursor: pointer;
+}
+
+.ellipse12 {
+  height: 11px;
+  width: 11px;
+  background: #FFF;
+  border-radius: 100px;
+  border: 1px solid #cbcdff;
+  position: absolute;
+  top: 262px;
+  left: 297px;
+}
+
+.ellipse15 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 53px;
+  top: 605px;
+  background: #FFF;
+  border: 1px solid #cbcdff;
+  border-radius: 100px;
+}
+
+.ellipse16 {
+  background-color: #6070ff;
+  position: absolute;
+  width: 24.5px;
+  height: 12.25px;
+  transform: translate(-50%, -50%) rotate(-176deg);
+  border-radius: 150px 150px 0 0;
+  /* transform: ; */
+  top: 492px;
+  left: 301px;
+}
+
+.U {
+  position: absolute;
+  top: 504px;
+  left: 290px;
+  transform: translate(-50%, -50%);
+  width: 20.1px;
+  height: 22.1px;
+  border-radius: 140px 150px 0 0;
+  border: 10px solid #ebebff;
+  border-bottom: none;
+  transform: rotate(22.41deg);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: #6070ff;
+  border-radius: 100px;
+  position: absolute;
+  top: 617.1px;
+  left: 237px;
+}
+
+.finalrect {
+  position: absolute;
+  width: 68.06px;
+  height: 12.18px;
+  left: 191.82px;
+  top: 630px;
+  background: #ebebff;
+  transform: rotate(23.34deg);
+}
