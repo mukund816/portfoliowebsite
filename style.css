@@ -183,7 +183,7 @@ body {
   width: 42%;
   position: absolute;
   top: 520px;
-  left:-39px;
+  left: -39px;
   list-style-type: none;
 }
 
@@ -256,7 +256,6 @@ body {
 
 .logo-link {
   text-decoration: none;
-  font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
